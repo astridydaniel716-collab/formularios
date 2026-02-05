@@ -1,0 +1,45 @@
+body {
+    background-color: #242424;
+    font-family: Arial, sans-serif;
+    background-image: url('https://manuelroman.com/wp-content/uploads/2025/03/IMC-bmi.png');
+}
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-family: 'calibri', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.formulario{
+    width: 25rem;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 5rem;
+    background-color: rgba(0, 0, 0, 0.635);
+    box-shadow: 0 4px 8px rgb(0, 0, 0); 
+    align-content: center;
+   }  
+
+input[type="number"], input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #4d50f2;
+    border-radius: 8px;
+    box-shadow: inset 0 0 5px rgba(28, 51, 126, 0.904);
+    margin-bottom: 2rem;
+    margin-left: 20%;
+}
+input[type="button"] {
+    background-color: #d2d2d8;
+    color: rgb(8, 8, 8);
+    padding: 10px 20px;
+    border: 2px solid #4d50f2;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 35%;
+}
