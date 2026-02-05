@@ -3,18 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facturas Pepito</title>
+    <title>Facturas</title>
+    <link rel="stylesheet" href="css/factura.css">
 </head>
 <body>
-    <h1>Programa para calcular Facturas</h1>
+    <h1> Facturas</h1>
+    <h2> Información del cliente</h2>
+    <div class="formulario">
   <form id="f1" name="f1">
     <input type="number" name="nf" id="nf" placeholder="Escriba Numero de Factura">
     <input type="number" name="idc" id="idc" placeholder="Digite id del cliente">
     <input type="text" name="nc" id="nc" placeholder="Digite nombre  del cliente">
+  </div>
+  <h2> Información del producto</h2>
+    <div class="formulario">
     <input type="number" name="cant" id="cant" placeholder="Digite cantidad del producto">
     <input type="text" name="dp" id="dp" placeholder="Digite Descripcion del producto">
     <input type="number" name="vu" id="vu" placeholder="Digite valor unitario">
+    </div>
+    <div class="contenedor">
     <input type="button" id="benviar" name="benviar" value="Calcular" onclick="calculo()">
+    </div>
   </form>
     <script src="js/factura.js"></script>
 </body>

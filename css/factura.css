@@ -1,0 +1,47 @@
+body {
+     font-family: Arial, sans-serif;
+}
+
+h1{
+text-align: center;
+    color: rgb(10, 10, 10);
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-family: 'calibri', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+h2{
+text-align: center;
+    color: rgb(10, 10, 10);
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-family: 'calibri', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+.formulario{
+    width: 35rem;
+    margin: 0 auto;
+    padding: 50px;
+    margin-bottom: 5rem;
+    background-color: rgba(245, 243, 243, 0.635);
+    box-shadow: 0 4px 8px rgb(0, 0, 0); 
+    align-content: center;
+    display: flex;
+   }  
+input[type="button"] {
+    background-color: #fdfdfd;
+    color: rgb(8, 8, 8);
+    padding: 10px 20px;
+    border: 2px solid #0c0c0c;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    
+}
+.contenedor{
+display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+  height: 10vh;
+}
