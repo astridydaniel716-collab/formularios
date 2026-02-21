@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario pacientes</title>
+    <link rel="stylesheet" href="css/formulariopte.css" />
+</head>
+
+<body>
+    <h1>Formulario Pacientes</h1>
+    <div class="contenedor-form">
+    <form class="formulario">
+  <div class="campo">
+    <label for="nombre">Nombres y Apellidos:</label>
+    <input type="text" id="nombre" name="nombre" placeholder="ingrese nombres y apellidos">
+  </div>
+  <div class="campo">
+    <label for="ID">ID:</label>
+    <input type="number" id="id" name="id" placeholder="ingrese su documento">
+  </div>
+  <div class="campo">
+    <label for="fecha">Fecha de nacimiento:</label>
+    <input type="date" id="fecha" name="fecha" placeholder="ingrese su fecha de nacimiento">
+    </div>
+    <div class="campo">
+    <label for="telefono">Número de teléfono:</label>
+    <input type="number" id="telefono" name="telefono" placeholder="ingrese su numero de telefono">
+    </div>
+    <div class="campo">
+    <label for="alergias">Alergias conocidas:</label>
+    <input type="text" id="alergias" name="alergias" placeholder="ingrese si tiene algun tipo de alergia">
+    </div>
+    <div class="button">
+    <input type="button" id="enviar" name="enviar" value="Ingresar datos" onclick="valida()">
+    </div>
+</form>
+
+    <script src="js/formulariopte.js"></script>
+</body>
+</html>
